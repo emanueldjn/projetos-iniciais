@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+.cabecalho-topo {
+    background-image: url(../imagens/bg-4.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+}
+
+.cabecalho-topo nav ul {
+    text-align: right;
+    margin: 20px 80px 0 0;
+}
+
+.cabecalho-topo nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 16px;
+}
+
+.cabecalho-topo nav a {
+    background-color: rgba(0, 0, 0, .3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.cabecalho-topo nav a:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.conteiner-foto {
+    color: white;
+    margin: 100px;
+    text-align: center;
+}
+
+.conteiner-foto h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;  
+}
+
+.cabecalho-topo p {
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    max-width: 860%;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+article h2 {
+    background-color: lightgray;
+    padding: 10px;
+    border-right: 5px solid rgb(77, 77, 77);
+    margin-top: 20px;
+}
+
+.link {
+    background-color: lightgray;
+    border-radius: 6px;
+    padding: 10px 16px;
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+}
+
+footer {
+    color: white;
+    background-color: rgb(53, 53, 53);
+    padding: 30px;
+    text-align: center;
+}
