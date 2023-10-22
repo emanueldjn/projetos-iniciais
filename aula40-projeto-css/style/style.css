@@ -85,6 +85,17 @@ article h2 {
     display: block;
     margin-left: auto;
     width: fit-content;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(158, 158, 158, 0.7);
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
 }
 
 footer {
